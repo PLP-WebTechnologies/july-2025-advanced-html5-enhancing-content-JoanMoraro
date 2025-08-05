@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enhanced HTML5 Content & Forms</title>
+  <style>
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the Enhanced HTML5 Content Page</h1>
+    <p>This page demonstrates advanced HTML5 content features.</p>
+  </header>
+
+<!-- Section 1: Lists -->
+<section>
+    <h2>Essential Skills for Web Developers</h2>
+    <article>
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Problem Solving</li>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Adaptability</li>
+        <li>Time Management</li>
+      </ul>
+  
+      <h3>Steps to Build a Website</h3>
+      <ol>
+        <li>Plan your content and structure</li>
+        <li>Create a layout sketch</li>
+        <li>Write HTML for structure</li>
+        <li>Add CSS for styling</li>
+        <li>Test and publish the site</li>
+      </ol>
+    </article>
+  </section>
+  
+
+  <!-- Section 2: Tables -->
+  <section>
+    <h2>Course Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Course</th>
+          <th>Instructor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>HTML & CSS</td>
+          <td>Ms. Joan</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>JavaScript</td>
+          <td>Mr. Felix</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Backend Basics</td>
+          <td>Mr. Gichuhi</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Section 3: Media -->
+  <section>
+    <h2>Media Showcase</h2>
+    <article>
+      <h3>Our Office Tour (Video)</h3>
+      <video width="320" controls>
+        <source src="office-tour.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Welcome Audio</h3>
+      <audio controls>
+        <source src="welcome.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
+
+      <h3>Team Photo</h3>
+      <img src="team.jpg" alt="Team Photo" width="320">
+    </article>
+  </section>
+
+  <!-- Section 4: Form -->
+  <section>
+    <h2>Register for the Bootcamp</h2>
+    <form action="#" method="POST" novalidate>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="e.g. Joan Moraro">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="e.g. joan@example.com">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g. 0712345678" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Login Info</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" pattern="[a-zA-Z0-9]{5,}" required placeholder="Min 5 alphanumeric characters">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="6" required placeholder="Min 6 characters">
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" minlength="6" required placeholder="Repeat password">
+
+        <label>
+          <input type="checkbox" name="terms" required>
+          I agree to the terms and conditions
+        </label>
+      </fieldset>
+
+      <button type="submit">Submit Registration</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WebDev Academy | Designed by Joan Moraro</p>
+  </footer>
+
+</body>
+</html>
